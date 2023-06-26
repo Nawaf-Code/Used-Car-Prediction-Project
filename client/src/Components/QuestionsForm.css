@@ -1,0 +1,83 @@
+.radio-group .MuiFormControlLabel-root {
+    position: relative;
+    margin: -5px;
+    padding: 0px; /* Adjust the margin value as desired */
+  }
+  .questions{
+    margin: 0 auto; 
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 17px;
+  }
+  #demo-radio-buttons-group-label{
+    text-align: left;
+  }
+  .questions label{
+    color: #6d6c6c;
+    font-size: 1rem;
+  }
+  .multiSelect {
+    display: flex;
+  }
+  
+  #multi-select-label {
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  #multi-select{
+  min-width: 9rem;
+  }
+  .normal{
+    display: flex;
+    justify-content: flex-start;
+    direction: ltr;
+    text-align: left;
+    font-weight: bold;
+    color: #777;
+    font-size: .9rem;
+    margin-top: .5rem;
+    line-height: 1.5;
+    display: inline;
+  }
+  .green{
+    display: flex;
+    justify-content: flex-start;
+    direction: ltr;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(71, 181, 85);
+    font-size: .9rem;
+    margin-top: .5rem;
+    line-height: 1.5;
+    display: inline;
+  }
+  .red{
+    display: flex;
+    justify-content: flex-start;
+    direction: ltr;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(229, 40, 40);
+    font-size: .9rem;
+    margin-top: .5rem;
+    line-height: 1.5;
+    display: inline;
+  }
+  .contain {
+    text-align: left;
+  }
+  .price{
+    color: rgb(42, 57, 141);
+    display: flex;
+    justify-content: flex-start;
+    direction: ltr;
+    text-align: left;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-top: .5rem;
+    line-height: 1.5;
+    display: inline;
+    text-decoration: underline dotted;
+  }
+  
+  

@@ -1,0 +1,44 @@
+.form-control.score-container{
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+.form-control svg{
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3;
+}
+.form-control svg:hover{
+    fill: rgb(71, 181, 85);
+}
+.score-container input:checked ~ svg{
+    fill:rgb(71, 181, 85)
+}
+.radio-container{
+    text-align: center;
+    position: relative;
+}
+.radio-container input{
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.radio-container p{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+}
+.user-opinion-container{
+    opacity: 0; 
+    animation: slowFadeIn 2s forwards;
+}
+@keyframes slowFadeIn {
+    from {
+      opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+      opacity: 2; /* Gradually increase opacity to 1 */
+    }
+  }

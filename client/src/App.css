@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.headerTopic, .headerText{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.headerTopic{
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.headerText{
+  margin-bottom: 0px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: rgba(100,100,111,.2) 0px 7px 29px 0px;
+  min-height: 290px;
+}
+.form-control{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 5px 20px 5px;
+  gap: .6rem;
+}
+.form-container form{
+  max-width: 400px;
+  margin: 0 auto;
+}
+label{
+  font-weight: bold;
+  color: #777;
+  font-size: .9rem;
+  margin-top: .5rem;
+}
+input, textarea{
+  padding:.6rem;
+  border: none;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0;
+}
+.form-control-input input{
+  width: 100px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.form-control-input input:focus{
+  border: 1px solid rgb(71, 181, 85)
+}
+.form-control-input{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 20px 5px 20px 5px;
+}
+textarea{
+  height: 120px;
+}
+.actions{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.actions .nextB{
+  padding: 6px 50px;
+  justify-content: center;
+  gap: 1rem;
+}
+.actions button{
+  background-color: rgb(71, 181, 85);
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 6px 30px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.actions button:hover{
+  background-color: rgb(63, 163, 77);
+}
+.bText{
+  color: white;
+}
+.error{
+  color: red;
+  font-weight: bold;
+}
+
+.actions .goB{
+  margin-top: 50px;
+}
