@@ -16,8 +16,7 @@ The project consists of three main components:
 
 ## Data
 
-The data used for this project was extracted from (syarash.com) using web scraping techniques.
-[I'm an inline-style link](https://www.google.com)
+The data used for this project was extracted from [syarash](https://www.syarash.com) using web scraping techniques.
 
 ## Prerequisites
 
