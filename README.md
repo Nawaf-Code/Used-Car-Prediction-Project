@@ -12,7 +12,7 @@ The technologies used in this project include ReactJS for the user interface, No
 
 ## Software Architecture
 The project consists of three main components:
-
+![Screenshot 2023-09-01 at 9 12 54 PM](https://github.com/Nawaf-Code/Used-Car-Price-Prediction/assets/98234284/7a8ce574-d17f-42f6-8f10-2f60235efc17)
 
 ## Data
 
