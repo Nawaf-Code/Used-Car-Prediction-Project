@@ -2,7 +2,7 @@
 
 This project aims to create an AI program that accurately predicts the price of a used car based on its features. This is targeted at potential buyers in the used car market who may lack knowledge about the true value of a vehicle. By using machine learning techniques, we aim to create a more trustworthy environment in the Saudi car market.
 
-The technologies used in this project include ReactJS for the user interface, Node.js for database communication, and FastAPI for sending car features to the AI model and retrieving the predicted price.
+The technologies used in this project include `ReactJS` for the user interface, `Node.js` for database communication, and `FastAPI` for sending car features to the AI model and retrieving the predicted price.
 
 ## Project Structure
 
@@ -16,7 +16,7 @@ The project consists of three main components:
 
 ## Data
 
-The data used for this project was extracted from [syarash](https://www.syarash.com) using web scraping techniques.
+The data used for this project was extracted from [syarah.com](https://syarah.com/) using web scraping techniques.
 
 ## Prerequisites
 
