@@ -10,6 +10,10 @@ The technologies used in this project include ReactJS for the user interface, No
 - `api/`: Contains the FastAPI backend application.
 - `server/`: Contains the Node.js server for database communication.
 
+## Software Architecture
+The project consists of three main components:
+
+
 ## Data
 
 The data used for this project was extracted from syarash.com using web scraping techniques.
