@@ -1,4 +1,4 @@
-# Used Car Price Predictor
+# Used Car Price Prediction
 
 This project aims to create an AI program that accurately predicts the price of a used car based on its features. This is targeted at potential buyers in the used car market who may lack knowledge about the true value of a vehicle. By using machine learning techniques, we aim to create a more trustworthy environment in the Saudi car market.
 
@@ -69,7 +69,7 @@ The data used for this project was extracted from syarash.com using web scraping
     npm start
     ```
 
-## Docker (Optional)
+## Docker
 
 If you have Docker installed, you can use it to containerize the applications. This is optional and not required to run the project.
 
@@ -84,7 +84,3 @@ Once all the servers are running, navigate to `localhost:3000` on your browser t
 ## Contributing
 
 Contributions are welcome. Please make sure to update tests as appropriate.
-
-## License
-
-MIT
